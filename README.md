@@ -33,3 +33,17 @@ cd nextjs-dashboard
 pnpm i
 pnpm dev
 ```
+
+# 글로벌 스타일
+ - /app/ui
+ - global.css : 글로벌 css 규칙 추가
+
+글로벌 스타일 추가
+```tsx
+// /app/laout.tsx
+import '@/app/ui/global.css';
+```
+
+## tailwind
+ - CSS 프레임워크, TSX 마크업에 직접 추가
+ - class 추가시 텍스트 파란색으로 바뀜
